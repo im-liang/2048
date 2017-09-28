@@ -14,9 +14,7 @@ $(document).ready(function() {
 });
 
 function new_game() {
-	//初始化棋盘
 	init();
-	//在随机两个格子生成数字
 	generate_one_number();
 	generate_one_number();
 }
@@ -73,7 +71,6 @@ function generate_one_number() {
 	if (nospace(board)) {
 		return false;
 	}
-	//随机一个位置
 	var randx = parseInt(Math.floor(Math.random() * 4));
 	var randy = parseInt(Math.floor(Math.random() * 4));
 	var time = 0;
@@ -95,9 +92,7 @@ function generate_one_number() {
 			}
 		}
 	}
-	//随机一个数字
 	var rand_number = Math.random() < 0.5 ? 2 : 4;
-	//在随机位置显示随机数字
 	board[randx][randy] = rand_number;
 	show_number_with_animation(randx, randy, rand_number);
 	return true;
