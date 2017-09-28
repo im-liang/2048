@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Demo
 
-![Alt text](./demo/demo.png?raw=true "Optional Title")
+![Alt text](/./demo/demo.png?raw=true "Optional Title")
 
 ## Built With
 
