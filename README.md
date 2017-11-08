@@ -6,6 +6,10 @@
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+## Rules
+
+For desktop, using arrow keys; for mobile, swipt to play.
+
 ## Demo
 
 ![Alt text](./demo/demo.png?raw=true "Optional Title")
